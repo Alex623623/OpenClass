@@ -1,0 +1,91 @@
+h1
+{
+    font-size:2.8em;
+    margin-bottom: 0px;
+}
+
+h3
+{
+    font-size:1.2em;   
+}
+
+h1, h2, h3, form, #commentaires
+{
+    font-family: 'font_custom_1', Verdana;
+    text-shadow: 6px 6px 4px grey;
+}
+
+body
+{
+    width:75%;
+    margin:auto;
+    text-align:center;
+    background-image:   url("../img/back.jpg");
+    background-repeat:  repeat;
+}
+
+#formulaire
+{   
+    background-color:#CCCCCC;
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px black;
+    padding-bottom: 5px;
+}
+
+#commentaires
+{
+    background-color:#9B9C9C;
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px black;
+}
+
+#commentaires p
+{
+    margin: 2px;
+}
+
+.i1
+{
+    font-family: 'font_custom_2', arial;
+    font-size:1.2em; 
+}
+
+.i2
+{
+    font-size:0.8em;    
+    margin-right: 10px;
+}
+
+@font-face
+{
+font-family: 'font_custom_1';
+src:    url('../font/deliusswashcaps-regular-webfont.ttf') format('ttf'),
+        url('../font/deliusswashcaps-regular-webfont.woff') format('woff'),
+        url('../font/deliusswashcaps-regular-webfont.woff2') format('woff2');
+}
+
+@font-face
+{
+font-family: 'font_custom_2';
+src:    url('../font/satisfy-regular-webfont.ttf') format('ttf'),
+        url('../font/satisfy-regular-webfont.woff') format('woff'),
+        url('../font/satisfy-regular-webfont.woff2') format('woff2');
+}
+
+#container #content {
+   height: 1px;
+   overflow: hidden;
+   border: 1px solid silver;
+}
+
+#container:target #content {
+   height: auto;
+}
+
+#container:target #hide, #container #show {
+   display: inline;
+}
+
+#container:target #show, #container #hide {
+   display: none;
+}
